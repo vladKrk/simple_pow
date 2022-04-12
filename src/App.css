@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 300px auto 0;
+  row-gap: 16px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  row-gap: 10px;
+  height: 350px;
+  overflow-y: auto;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.generate {
+  width: 200px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 5px;
+  border: 1px solid black;
+  width: 700px;
+  border-radius: 10px;
+}
